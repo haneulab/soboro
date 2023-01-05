@@ -20,8 +20,8 @@
             "@types.components": ["./types/components.d.ts"],
             "@types.contexts": ["./types/contexts.d.ts"],
             "@types.api": ["./types/api.d.ts"],
-            "@components.layout": ["./components/export.layout.ts"],
-            "@components.common": ["./components/export.common.ts"],
+            "@components.layout": ["./components/layout.export.ts"],
+            "@components.common": ["./components/common.export.ts"],
             "@hooks.*": ["./hooks/*"],
             "@functions.*": ["./functions/*"],
             "@contexts.*": ["./contexts/*"]
