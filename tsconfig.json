@@ -1,50 +1,24 @@
 {
-  "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["es6", "dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "ESNEXT",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "baseUrl": "src",
-    "paths": {
-      /* STATIC PATHS */
-      "@styles/default": ["./styles/index.css"],
-
-      "@typeDefs/pages": ["./types/pages.d.ts"],
-      "@typeDefs/auth": ["./types/auth.d.ts"],
-      "@typeDefs/components": ["./types/components.d.ts"],
-      "@typeDefs/database": ["./types/database.d.ts"],
-
-      "@components/layouts": ["./components/Layouts/index.ts"],
-
-      "@components/wrappers": ["./components/Core/Wrappers/index.ts"],
-      "@components/buttons": ["./components/Core/Buttons/index.ts"],
-      "@components/forms": ["./components/Core/Forms/index.ts"],
-      "@components/cards": ["./components/Core/Cards/index.ts"],
-      "@components/modals": ["./components/Core/Modals/index.ts"],
-      "@components/customs": ["./components/Core/Customs/index.ts"],
-      "@components/maps": ["./components/Core/Maps/index.ts"],
-      "@components/banners": ["./components/Core/Banners/index.ts"],
-
-      "@hooks": ["./hooks/index.ts"],
-
-      "@functions": ["./functions/index.ts"],
-
-      "@services/firebase": ["./services/firebase/index.ts"],
-
-      /* DYNAMIC PATHS */
-      "@components/core/*": ["./components/Core/*"]
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["es6", "dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "ESNEXT",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": "src",
+        "paths": {
+            /* STATIC PATHS */
+        },
+        "incremental": true
     },
-    "incremental": true
-  },
-  "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", "next.config.js"]
+    "exclude": ["node_modules"],
+    "include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", "next.config.js"]
 }
