@@ -1,6 +1,6 @@
-import { type ApplicationComponent } from '@application/types'
+import { type AppRFC } from '@soboro/types'
 
-const FooterLayout: ApplicationComponent = () => {
+const FooterLayout: AppRFC = () => {
     return (
         <footer>
             <div className="p-8 max-w-cutoff mx-auto">

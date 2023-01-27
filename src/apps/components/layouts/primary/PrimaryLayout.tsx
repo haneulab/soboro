@@ -1,10 +1,10 @@
 import { type IPrimaryLayout } from './Primary.types'
-import { type ApplicationComponent } from '@application/types'
+import { type AppRFC } from '@soboro/types'
 import { FooterLayout } from '../footer'
 import { MetaLayout } from '../meta'
 import { HeaderLayout } from '../header'
 
-const PrimaryLayout: ApplicationComponent<IPrimaryLayout> = ({
+const PrimaryLayout: AppRFC<IPrimaryLayout> = ({
     children,
     title,
     description,

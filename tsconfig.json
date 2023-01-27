@@ -16,15 +16,15 @@
         "jsx": "preserve",
         "baseUrl": "src",
         "paths": {
-            "@application/styles": ["./apps/styles/index.css"],
-            "@application/types": ["./apps/types/index.d.ts"],
-            "@application/contexts": ["./apps/contexts/index.ts"],
-            "@application/hooks": ["./apps/hooks/index.ts"],
-            "@application/functions": ["./apps/functions/index.ts"],
-            "@application/components/layouts": [
+            "@soboro/styles": ["./apps/styles/index.css"],
+            "@soboro/types": ["./apps/types/index.d.ts"],
+            "@soboro/contexts": ["./apps/contexts/index.ts"],
+            "@soboro/hooks": ["./apps/hooks/index.ts"],
+            "@soboro/functions": ["./apps/functions/index.ts"],
+            "@soboro/components/layouts": [
                 "./apps/components/layouts/index.ts"
             ],
-            "@application/components/core": ["./apps/components/core/index.ts"]
+            "@soboro/components/core": ["./apps/components/core/index.ts"]
         },
         "incremental": true
     },
