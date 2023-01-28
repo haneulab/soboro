@@ -24,7 +24,19 @@
             "@soboro/components/layouts": [
                 "./apps/components/layouts/index.ts"
             ],
-            "@soboro/components/core": ["./apps/components/core/index.ts"]
+            "@soboro/components/base": ["./apps/components/base/index.ts"],
+            "@soboro/components/links": [
+                "./apps/components/core/links/index.ts"
+            ],
+            "@soboro/components/cards": [
+                "./apps/components/core/cards/index.ts"
+            ],
+            "@soboro/components/forms": [
+                "./apps/components/core/forms/index.ts"
+            ],
+            "@soboro/components/modals": [
+                "./apps/components/core/modals/index.ts"
+            ]
         },
         "incremental": true
     },

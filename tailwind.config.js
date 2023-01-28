@@ -3,7 +3,15 @@ module.exports = {
     content: ['./src/**/*.{ts,tsx}'],
     theme: {
         extend: {
-            colors: {},
+            colors: {
+                sbyellow: '#FFD12D',
+                sbsky: '#83E9FF',
+                sbpink: '#FFB5EA',
+                sbgreen: '#81F3A1',
+                sbred: '#FF8080',
+                sbindigo: '#A4A3FF',
+                sbpurple: '#DE97FF',
+            },
             maxWidth: {
                 cutoff: '1440px',
             },

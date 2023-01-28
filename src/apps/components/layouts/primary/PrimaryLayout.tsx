@@ -9,6 +9,10 @@ const PrimaryLayout: AppRFC<IPrimaryLayout> = ({
     title,
     description,
     keywords,
+    render = {
+        header: true,
+        footer: true,
+    },
 }) => {
     return (
         <>
@@ -17,9 +21,9 @@ const PrimaryLayout: AppRFC<IPrimaryLayout> = ({
                 description={description}
                 keywords={keywords}
             />
-            <HeaderLayout />
-            <main>{children}</main>
-            <FooterLayout />
+            {render.header && <HeaderLayout />}
+            <main className="relative">{children}</main>
+            {render.footer && <FooterLayout />}
         </>
     )
 }

@@ -1,7 +1,7 @@
 import Head from 'next/head'
+import { metaLayoutMock } from './MetaLayout.mock'
 import { type IMetaLayout } from './MetaLayout.types'
 import { type AppRFC } from '@soboro/types'
-import { metaLayoutMock } from './MetaLayout.mock'
 
 const MetaLayout: AppRFC<IMetaLayout> = ({
     title = metaLayoutMock.title ?? '',
